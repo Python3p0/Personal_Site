@@ -58,7 +58,6 @@ p {
 
 .top-container {
   background-color: #e4f9f5;
-
   position: relative;
   padding-top: 100px;
   margin-bottom: 100px;
@@ -161,9 +160,31 @@ p {
 }
 */
 
-.mountain-imge {
+.projects {
+  font-weight: bold;
   width: 100%;
+  margin: auto;
 }
+
+.projects-description {
+  width: 60%;
+  margin: auto;
+}
+
+iframe {
+  margin: 33px;
+  width: auto;
+  display: inline-block;
+}
+
+/* .vent {
+}
+
+.cart {
+}
+
+.rgb {
+} */
 
 @media (max-width: 1000px) {
   .cloud-image {
@@ -175,11 +196,19 @@ p {
   .get-in-touch-description {
     width: 100%;
   }
-    }
   .icon {
     float: none;
   }
   .hardware {
-    margin:0%;
+    margin: 0%;
+  }
+
+  .mountain-imge {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    width: auto;
   }
 }
