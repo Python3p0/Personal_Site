@@ -175,4 +175,11 @@ p {
   .get-in-touch-description {
     width: 100%;
   }
+    }
+  .icon {
+    float: none;
+  }
+  .hardware {
+    margin:0%;
+  }
 }
