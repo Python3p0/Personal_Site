@@ -58,6 +58,7 @@ p {
 
 .top-container {
   background-color: #e4f9f5;
+
   position: relative;
   padding-top: 100px;
   margin-bottom: 100px;
@@ -159,3 +160,19 @@ p {
   clear: right;
 }
 */
+
+.mountain-imge {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cloud-image {
+    width: 30%;
+  }
+  .bottom-cloud {
+    bottom: 200px;
+  }
+  .get-in-touch-description {
+    width: 100%;
+  }
+}
